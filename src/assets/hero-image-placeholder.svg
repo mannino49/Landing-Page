@@ -1,0 +1,7 @@
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" rx="10" fill="#E6EFF9"/>
+  <rect x="200" y="100" width="400" height="200" rx="5" fill="#4A90E2" fill-opacity="0.2"/>
+  <circle cx="400" cy="200" r="100" fill="#4A90E2" fill-opacity="0.3"/>
+  <path d="M350 200C350 172.386 372.386 150 400 150C427.614 150 450 172.386 450 200C450 227.614 427.614 250 400 250C372.386 250 350 227.614 350 200Z" stroke="#4A90E2" stroke-width="2"/>
+  <text x="400" y="205" font-family="Arial" font-size="16" text-anchor="middle" fill="#2C3E50">Person using Misophonia Companion app</text>
+</svg>

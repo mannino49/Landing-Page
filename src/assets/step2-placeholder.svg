@@ -1,0 +1,35 @@
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" rx="10" fill="#F8F9FA"/>
+  
+  <!-- Device Frame -->
+  <rect x="250" y="50" width="300" height="300" rx="20" fill="white" stroke="#E0E0E0" stroke-width="2"/>
+  
+  <!-- Screen -->
+  <rect x="270" y="70" width="260" height="240" rx="5" fill="#F0F0F0"/>
+  
+  <!-- Content: Trigger Logging Form -->
+  <rect x="290" y="90" width="220" height="40" rx="5" fill="#9B59B6" fill-opacity="0.2"/>
+  
+  <!-- Form Fields -->
+  <rect x="290" y="145" width="220" height="25" rx="3" fill="white" stroke="#E0E0E0"/>
+  <text x="300" y="162" font-family="Arial" font-size="12" fill="#666666">Trigger sound: Chewing</text>
+  
+  <rect x="290" y="180" width="220" height="25" rx="3" fill="white" stroke="#E0E0E0"/>
+  <text x="300" y="197" font-family="Arial" font-size="12" fill="#666666">Emotional response: Anxiety</text>
+  
+  <rect x="290" y="215" width="220" height="25" rx="3" fill="white" stroke="#E0E0E0"/>
+  <text x="300" y="232" font-family="Arial" font-size="12" fill="#666666">Intensity: 7/10</text>
+  
+  <!-- Submit Button -->
+  <rect x="340" y="255" width="120" height="30" rx="5" fill="#9B59B6"/>
+  <text x="400" y="275" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Log Trigger</text>
+  
+  <!-- Home Button -->
+  <circle cx="400" cy="330" r="15" fill="#F0F0F0" stroke="#E0E0E0" stroke-width="1"/>
+  
+  <!-- Title -->
+  <text x="400" y="110" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#2C3E50">Track Your Triggers</text>
+  
+  <!-- Caption -->
+  <text x="400" y="380" font-family="Arial" font-size="14" text-anchor="middle" fill="#666666">Log triggers and emotional responses in just 30 seconds</text>
+</svg>

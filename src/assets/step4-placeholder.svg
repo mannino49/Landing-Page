@@ -1,0 +1,50 @@
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" rx="10" fill="#F8F9FA"/>
+  
+  <!-- Device Frame -->
+  <rect x="250" y="50" width="300" height="300" rx="20" fill="white" stroke="#E0E0E0" stroke-width="2"/>
+  
+  <!-- Screen -->
+  <rect x="270" y="70" width="260" height="240" rx="5" fill="#F0F0F0"/>
+  
+  <!-- Content: Progress Dashboard -->
+  <rect x="290" y="90" width="220" height="40" rx="5" fill="#1ABC9C" fill-opacity="0.2"/>
+  
+  <!-- Graph -->
+  <rect x="290" y="145" width="220" height="100" rx="5" fill="white" stroke="#E0E0E0"/>
+  
+  <!-- Graph Lines -->
+  <path d="M290 245 L510 245" stroke="#E0E0E0" stroke-width="1"/>
+  <path d="M290 215 L510 215" stroke="#E0E0E0" stroke-width="1" stroke-dasharray="2 2"/>
+  <path d="M290 185 L510 185" stroke="#E0E0E0" stroke-width="1" stroke-dasharray="2 2"/>
+  <path d="M290 155 L510 155" stroke="#E0E0E0" stroke-width="1" stroke-dasharray="2 2"/>
+  
+  <!-- Graph Data -->
+  <path d="M300 230 L330 220 L360 235 L390 200 L420 190 L450 180 L480 165 L500 155" stroke="#1ABC9C" stroke-width="2"/>
+  <circle cx="300" cy="230" r="4" fill="#1ABC9C"/>
+  <circle cx="330" cy="220" r="4" fill="#1ABC9C"/>
+  <circle cx="360" cy="235" r="4" fill="#1ABC9C"/>
+  <circle cx="390" cy="200" r="4" fill="#1ABC9C"/>
+  <circle cx="420" cy="190" r="4" fill="#1ABC9C"/>
+  <circle cx="450" cy="180" r="4" fill="#1ABC9C"/>
+  <circle cx="480" cy="165" r="4" fill="#1ABC9C"/>
+  <circle cx="500" cy="155" r="4" fill="#1ABC9C"/>
+  
+  <!-- Stats -->
+  <rect x="290" y="255" width="105" height="40" rx="5" fill="white" stroke="#E0E0E0"/>
+  <text x="342" y="275" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#2C3E50">32%</text>
+  <text x="342" y="290" font-family="Arial" font-size="10" text-anchor="middle" fill="#666666">Reduced Intensity</text>
+  
+  <rect x="405" y="255" width="105" height="40" rx="5" fill="white" stroke="#E0E0E0"/>
+  <text x="457" y="275" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#2C3E50">28</text>
+  <text x="457" y="290" font-family="Arial" font-size="10" text-anchor="middle" fill="#666666">Days Streak</text>
+  
+  <!-- Home Button -->
+  <circle cx="400" cy="330" r="15" fill="#F0F0F0" stroke="#E0E0E0" stroke-width="1"/>
+  
+  <!-- Title -->
+  <text x="400" y="110" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#2C3E50">Your Progress</text>
+  
+  <!-- Caption -->
+  <text x="400" y="380" font-family="Arial" font-size="14" text-anchor="middle" fill="#666666">Monitor your progress and identify patterns over time</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" rx="10" fill="#F8F9FA"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#2C3E50">Common Misophonia Triggers & Responses</text>
+  
+  <!-- Triggers Section -->
+  <rect x="100" y="80" width="250" height="250" rx="5" fill="#4A90E2" fill-opacity="0.1"/>
+  <text x="225" y="110" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#4A90E2">Common Triggers</text>
+  
+  <!-- Trigger Icons -->
+  <circle cx="150" cy="150" r="25" fill="#4A90E2" fill-opacity="0.2"/>
+  <text x="150" y="155" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">Eating</text>
+  
+  <circle cx="225" cy="150" r="25" fill="#4A90E2" fill-opacity="0.2"/>
+  <text x="225" y="155" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">Breathing</text>
+  
+  <circle cx="300" cy="150" r="25" fill="#4A90E2" fill-opacity="0.2"/>
+  <text x="300" y="155" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">Clicking</text>
+  
+  <circle cx="150" cy="225" r="25" fill="#4A90E2" fill-opacity="0.2"/>
+  <text x="150" y="230" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">Tapping</text>
+  
+  <circle cx="225" cy="225" r="25" fill="#4A90E2" fill-opacity="0.2"/>
+  <text x="225" y="230" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">Sniffing</text>
+  
+  <circle cx="300" cy="225" r="25" fill="#4A90E2" fill-opacity="0.2"/>
+  <text x="300" y="230" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">Humming</text>
+  
+  <!-- Responses Section -->
+  <rect x="450" y="80" width="250" height="250" rx="5" fill="#9B59B6" fill-opacity="0.1"/>
+  <text x="575" y="110" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#9B59B6">Emotional Responses</text>
+  
+  <!-- Response Icons -->
+  <circle cx="500" cy="150" r="25" fill="#9B59B6" fill-opacity="0.2"/>
+  <text x="500" y="155" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">Anger</text>
+  
+  <circle cx="575" cy="150" r="25" fill="#9B59B6" fill-opacity="0.2"/>
+  <text x="575" y="155" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">Anxiety</text>
+  
+  <circle cx="650" cy="150" r="25" fill="#9B59B6" fill-opacity="0.2"/>
+  <text x="650" y="155" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">Panic</text>
+  
+  <circle cx="500" cy="225" r="25" fill="#9B59B6" fill-opacity="0.2"/>
+  <text x="500" y="230" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">Disgust</text>
+  
+  <circle cx="575" cy="225" r="25" fill="#9B59B6" fill-opacity="0.2"/>
+  <text x="575" y="230" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">Rage</text>
+  
+  <circle cx="650" cy="225" r="25" fill="#9B59B6" fill-opacity="0.2"/>
+  <text x="650" y="230" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">Flight</text>
+  
+  <!-- Connection Line -->
+  <path d="M350 200 L450 200" stroke="#2C3E50" stroke-width="2" stroke-dasharray="5 5"/>
+  <circle cx="400" cy="200" r="15" fill="#50C878" fill-opacity="0.3"/>
+  <text x="400" y="205" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">→</text>
+  
+  <!-- Footer -->
+  <text x="400" y="360" font-family="Arial" font-size="14" text-anchor="middle" fill="#666666">Based on research from 134+ academic papers</text>
+</svg>
