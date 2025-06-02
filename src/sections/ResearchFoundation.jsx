@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Bubbles from '../components/Bubbles';
+import assets from '../utils/assetUtils';
 
 const SectionContainer = styled.section`
   padding: var(--spacing-xxl) 0;
@@ -189,7 +190,7 @@ const ResearchFoundation = () => {
           <ImageContainer>
             <Image>
               {/* Research visualization */}
-              <img src="/src/assets/research-visualization.svg" alt="Visual representation of the research database and academic sources" />
+              <img src={assets.researchVisualization} alt="Visual representation of the research database and academic sources" />
             </Image>
           </ImageContainer>
         </ContentGrid>

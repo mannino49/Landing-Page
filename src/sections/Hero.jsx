@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { scrollToSection } from '../utils/scrollUtils';
 import Bubbles from '../components/Bubbles';
+import assets from '../utils/assetUtils';
 
 const HeroSection = styled.section`
   min-height: 100vh;
@@ -205,7 +206,7 @@ const Hero = () => {
         <HeroImageContainer>
           <HeroImage>
             {/* Hero image */}
-            <img src="/src/assets/hero-image-placeholder.svg" alt="Person using Misophonia Companion app in a calm environment" />
+            <img src={assets.heroImagePlaceholder} alt="Person using Misophonia Companion app in a calm environment" />
           </HeroImage>
         </HeroImageContainer>
       </HeroContainer>

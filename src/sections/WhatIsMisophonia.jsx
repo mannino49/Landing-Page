@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Bubbles from '../components/Bubbles';
+import assets from '../utils/assetUtils';
 
 const SectionContainer = styled.section`
   padding: var(--spacing-xxl) 0;
@@ -145,7 +146,7 @@ const WhatIsMisophonia = () => {
           <ImageContainer>
             <Image>
               {/* Infographic */}
-              <img src="/src/assets/misophonia-infographic.svg" alt="Infographic showing common misophonia triggers and emotional responses" />
+              <img src={assets.misophoniaInfographic} alt="Infographic showing common misophonia triggers and emotional responses" />
             </Image>
           </ImageContainer>
         </ContentGrid>

@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import assets from '../utils/assetUtils';
 
 const SectionContainer = styled.section`
   padding: var(--spacing-xxl) 0;
@@ -119,13 +120,13 @@ const HowItWorks = () => {
               </StepDescription>
             </StepContent>
             <StepImage>
-              <img src="/src/assets/step1-placeholder.svg" alt="Learn about misophonia through evidence-based resources" />
+              <img src={assets.step1Placeholder} alt="Learn about misophonia through evidence-based resources" />
             </StepImage>
           </StepRow>
           
           <StepRow reverse>
             <StepImage>
-              <img src="/src/assets/step2-placeholder.svg" alt="Person logging a trigger in the app" />
+              <img src={assets.step2Placeholder} alt="Person logging a trigger in the app" />
             </StepImage>
             <StepContent>
               <StepNumber>2</StepNumber>
@@ -145,13 +146,13 @@ const HowItWorks = () => {
               </StepDescription>
             </StepContent>
             <StepImage>
-              <img src="/src/assets/step3-placeholder.svg" alt="App showing personalized coping strategies" />
+              <img src={assets.step3Placeholder} alt="App showing personalized coping strategies" />
             </StepImage>
           </StepRow>
           
           <StepRow reverse>
             <StepImage>
-              <img src="/src/assets/step4-placeholder.svg" alt="Progress tracking dashboard in the app" />
+              <img src={assets.step4Placeholder} alt="Progress tracking dashboard in the app" />
             </StepImage>
             <StepContent>
               <StepNumber>4</StepNumber>

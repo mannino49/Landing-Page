@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
+import assets from '../utils/assetUtils';
 
 const SectionContainer = styled.section`
   padding: var(--spacing-xxl) 0;
@@ -176,21 +177,21 @@ const testimonials = [
     text: "Misophonia Companion has been life-changing for me. Before using this app, I struggled daily with my sound triggers. Now I have tools to understand and manage my reactions. The research-backed strategies have made a real difference in my quality of life.",
     name: "Sarah J.",
     role: "Living with misophonia for 15 years",
-    image: "/src/assets/avatar-1.svg"
+    image: assets.avatar1
   },
   {
     id: 2,
     text: "As the parent of a teenager with misophonia, I've found this app incredibly helpful for understanding what my daughter is going through. The educational resources are excellent, and the strategies have helped our whole family adapt and support her better.",
     name: "Michael T.",
     role: "Parent of child with misophonia",
-    image: "/src/assets/avatar-2.svg"
+    image: assets.avatar2
   },
   {
     id: 3,
     text: "I recommend Misophonia Companion to all my patients with sound sensitivity issues. The evidence-based approach aligns perfectly with clinical best practices, and the tracking features provide valuable insights that help guide our therapy sessions.",
     name: "Dr. Rebecca L.",
     role: "Clinical Psychologist",
-    image: "/src/assets/avatar-3.svg"
+    image: assets.avatar3
   }
 ];
 

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { scrollToSection } from '../utils/scrollUtils';
+import assets from '../utils/assetUtils';
 
 const HeaderContainer = styled.header`
   position: fixed;
@@ -129,7 +130,7 @@ const Header = () => {
   return (
     <HeaderContainer scrolled={scrolled}>
       <Nav>
-        <Logo scrolled={scrolled}><img src="/src/assets/logo.svg" alt="Misophonia Companion Logo" /></Logo>
+        <Logo scrolled={scrolled}><img src={assets.logo} alt="Misophonia Companion Logo" /></Logo>
         
         <MobileMenuButton 
           scrolled={scrolled} 
