@@ -38,9 +38,12 @@ const assets = {
   avatar2,
   avatar3,
   
-  // Videos - paths to public video files
+  // Videos - external hosting URLs for better performance
   videos: {
-    misoVideo: '/videos/miso video.mp4'
+    // For large video files, it's better to use an external video hosting service
+    // like YouTube, Vimeo, or a CDN instead of hosting them directly in the project
+    // Replace this URL with your actual hosted video URL when available
+    misoVideo: 'https://example.com/placeholder-video.mp4'
   }
 };
 
