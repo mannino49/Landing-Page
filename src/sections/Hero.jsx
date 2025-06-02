@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { scrollToSection } from '../utils/scrollUtils';
 import Bubbles from '../components/Bubbles';
+import VideoPlayer from '../components/VideoPlayer';
 import assets from '../utils/assetUtils';
 
 const HeroSection = styled.section`
@@ -167,6 +168,17 @@ const HeroImage = styled.div`
     height: 100%;
     object-fit: cover;
   }
+  
+  .video-container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .video-player {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 `;
 
 const BackgroundDecoration = styled.div`
@@ -205,8 +217,16 @@ const Hero = () => {
         
         <HeroImageContainer>
           <HeroImage>
-            {/* Hero image */}
-            <img src={assets.heroImagePlaceholder} alt="Person using Misophonia Companion app in a calm environment" />
+            {/* Video player */}
+            <VideoPlayer
+              src={assets.videos.misoVideo}
+              poster={assets.heroImagePlaceholder}
+              controls={true}
+              autoPlay={false}
+              loop={true}
+              muted={true}
+              className="hero-video"
+            />
           </HeroImage>
         </HeroImageContainer>
       </HeroContainer>

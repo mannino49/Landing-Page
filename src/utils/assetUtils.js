@@ -21,6 +21,9 @@ import avatar1 from '../assets/avatar-1.svg';
 import avatar2 from '../assets/avatar-2.svg';
 import avatar3 from '../assets/avatar-3.svg';
 
+// Videos - these are stored in the public folder and referenced by path
+// No need to import them as they're served directly from the public directory
+
 // Export all assets as an object
 const assets = {
   logo,
@@ -33,7 +36,12 @@ const assets = {
   step4Placeholder,
   avatar1,
   avatar2,
-  avatar3
+  avatar3,
+  
+  // Videos - paths to public video files
+  videos: {
+    misoVideo: '/videos/miso video.mp4'
+  }
 };
 
 export default assets;
